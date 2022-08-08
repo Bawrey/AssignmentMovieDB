@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <variable
+            name="data"
+            type="id.indocyber.common.entity.movie_review.Review" />
+
+        <import type="id.indocyber.api_service.Constants" />
+    </data>
+
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/card_movie_review"
+        app:cardBackgroundColor="@color/white_transparent"
+        app:cardElevation="0dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout xmlns:custom="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white_transparent"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/image_avatar"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                custom:layout_constraintEnd_toEndOf="parent"
+                custom:loadImageCircle="@{data.authorDetails.avatarPath.startsWith(`/http`)? data.authorDetails.avatarPath.substring(1):Constants.BASE_POSTER_PATH+data.authorDetails.avatarPath}" />
+
+            <TextView
+                android:id="@+id/text_movie_review_author"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@{data.author}"
+                android:textAlignment="center"
+                android:theme="@style/outline_for_text_head"
+                custom:layout_constraintTop_toBottomOf="@id/image_avatar" />
+
+            <TextView
+                android:id="@+id/text_movie_review_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@{data.content}"
+                android:theme="@style/outline_for_text_body"
+                custom:layout_constraintTop_toBottomOf="@id/text_movie_review_author" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MovieDBAssignment</string>
+    <string name="retry">Retry</string>
+    <string name="reviews">Reviews</string>
+    <string name="no_movie_available">No Movie Available</string>
+    <string name="no_review_available">No Review Available</string>
+</resources>

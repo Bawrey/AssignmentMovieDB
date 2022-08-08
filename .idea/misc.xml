@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Bootcamp Notes/Kotlin/MovieDBAssignment/app/src/main/res/drawable/avatar_placeholder_foreground.xml" value="0.209" />
+        <entry key="..\:/Bootcamp Notes/Kotlin/MovieDBAssignment/app/src/main/res/drawable/background_border_black.xml" value="0.326" />
+        <entry key="..\:/Bootcamp Notes/Kotlin/MovieDBAssignment/app/src/main/res/drawable/background_border_black_fill.xml" value="0.326" />
+        <entry key="..\:/Bootcamp Notes/Kotlin/MovieDBAssignment/app/src/main/res/drawable/background_card_detail.xml" value="0.1" />
+        <entry key="..\:/Bootcamp Notes/Kotlin/MovieDBAssignment/app/src/main/res/drawable/background_card_review.xml" value="0.326" />
+        <entry key="..\:/Bootcamp Notes/Kotlin/MovieDBAssignment/app/src/main/res/drawable/background_color_gradient_main.xml" value="0.176" />
+        <entry key="..\:/Bootcamp Notes/Kotlin/MovieDBAssignment/app/src/main/res/drawable/background_color_gradient_purple_blue.xml" value="0.326" />
+        <entry key="..\:/Bootcamp Notes/Kotlin/MovieDBAssignment/app/src/main/res/drawable/background_transparent.xml" value="0.176" />
+        <entry key="..\:/Bootcamp Notes/Kotlin/MovieDBAssignment/app/src/main/res/drawable/layout_movie_detail.xml" value="0.1" />
+        <entry key="..\:/Bootcamp Notes/Kotlin/MovieDBAssignment/app/src/main/res/layout-land/layout_movie_detail.xml" value="0.328042328042328" />
+        <entry key="..\:/Bootcamp Notes/Kotlin/MovieDBAssignment/app/src/main/res/layout-land/layout_movie_list.xml" value="0.3271604938271605" />
+        <entry key="..\:/Bootcamp Notes/Kotlin/MovieDBAssignment/app/src/main/res/layout-land/layout_root.xml" value="0.328042328042328" />
+        <entry key="..\:/Bootcamp Notes/Kotlin/MovieDBAssignment/app/src/main/res/layout/item_genre_list.xml" value="0.25" />
+        <entry key="..\:/Bootcamp Notes/Kotlin/MovieDBAssignment/app/src/main/res/layout/item_load_state.xml" value="0.3875" />
+        <entry key="..\:/Bootcamp Notes/Kotlin/MovieDBAssignment/app/src/main/res/layout/item_movie_list.xml" value="0.25" />
+        <entry key="..\:/Bootcamp Notes/Kotlin/MovieDBAssignment/app/src/main/res/layout/item_movie_review.xml" value="0.3875" />
+        <entry key="..\:/Bootcamp Notes/Kotlin/MovieDBAssignment/app/src/main/res/layout/layout_genre_list.xml" value="0.1" />
+        <entry key="..\:/Bootcamp Notes/Kotlin/MovieDBAssignment/app/src/main/res/layout/layout_load_item.xml" value="0.38645833333333335" />
+        <entry key="..\:/Bootcamp Notes/Kotlin/MovieDBAssignment/app/src/main/res/layout/layout_movie_detail.xml" value="0.22" />
+        <entry key="..\:/Bootcamp Notes/Kotlin/MovieDBAssignment/app/src/main/res/layout/layout_movie_list.xml" value="0.1" />
+        <entry key="..\:/Bootcamp Notes/Kotlin/MovieDBAssignment/app/src/main/res/layout/layout_root.xml" value="0.3875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
