@@ -87,7 +87,7 @@ class MovieDetailFragment : BaseFragment<LayoutMovieDetailBinding, MovieDetailVi
                     binding.buttonRetry.visibility = View.VISIBLE
                     binding.viewYoutubePlayer.visibility = View.GONE
                     binding.loadingBar.visibility = View.GONE
-                    alertDialogBuilder("Error", it.e?.message.toString())
+                    alertDialogBuilder("Attention", it.e?.message.toString())
                 }
             }
         }

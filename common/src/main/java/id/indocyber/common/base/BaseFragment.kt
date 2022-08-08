@@ -42,10 +42,7 @@ abstract class BaseFragment<Binding : ViewDataBinding, VM : BaseViewModel> : Fra
         AlertDialog.Builder(context)
             .setTitle(title)
             .setMessage(message)
-            .setPositiveButton("Ok") { _, _ ->
-                viewModel.popBackStack()
-            }
-            .setNegativeButton("Back") { dialog, _ ->
+            .setPositiveButton("Ok") { dialog, _ ->
                 dialog.cancel()
             }
             .create().show()

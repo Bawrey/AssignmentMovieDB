@@ -12,7 +12,7 @@ class GetMovieVideoUseCase(private val movieVideoService: MovieVideoService) {
         if (result.isSuccessful) {
             emit(result.body()?.videos?.let { list ->
                 if (list.isNotEmpty()) AppResponse.success(list.filter { it.type == "Trailer" }[0])
-                else AppResponse.error(Exception("List is empty: " + result.message()))
+                else AppResponse.error(Exception("There are no video trailer"))
             } ?: kotlin.run {
                 AppResponse.error(Exception("Data is empty: " + result.message()))
             })
